@@ -6,8 +6,8 @@
 //
 
 import Cocoa
+import InputMethodKit
 
-@main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet var window: NSWindow!
@@ -27,4 +27,3 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
 }
-

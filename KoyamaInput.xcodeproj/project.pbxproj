@@ -10,6 +10,9 @@
 		D685E4482788588500C54F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685E4472788588500C54F72 /* AppDelegate.swift */; };
 		D685E44A2788588900C54F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D685E4492788588900C54F72 /* Assets.xcassets */; };
 		D685E44D2788588900C54F72 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D685E44B2788588900C54F72 /* MainMenu.xib */; };
+		D685E45527885A9600C54F72 /* KoyamaInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685E45427885A9600C54F72 /* KoyamaInputController.swift */; };
+		D685E45827885D6700C54F72 /* icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D685E45727885D6700C54F72 /* icon.tiff */; };
+		D699D58227886D7200171F0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699D58127886D7200171F0C /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,10 @@
 		D685E4492788588900C54F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D685E44C2788588900C54F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D685E44E2788588A00C54F72 /* KoyamaInput.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KoyamaInput.entitlements; sourceTree = "<group>"; };
+		D685E45427885A9600C54F72 /* KoyamaInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoyamaInputController.swift; sourceTree = "<group>"; };
+		D685E45627885CA900C54F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D685E45727885D6700C54F72 /* icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = icon.tiff; sourceTree = "<group>"; };
+		D699D58127886D7200171F0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +57,14 @@
 		D685E4462788588500C54F72 /* KoyamaInput */ = {
 			isa = PBXGroup;
 			children = (
+				D699D58127886D7200171F0C /* main.swift */,
+				D685E45727885D6700C54F72 /* icon.tiff */,
+				D685E45627885CA900C54F72 /* Info.plist */,
 				D685E4472788588500C54F72 /* AppDelegate.swift */,
 				D685E4492788588900C54F72 /* Assets.xcassets */,
 				D685E44B2788588900C54F72 /* MainMenu.xib */,
 				D685E44E2788588A00C54F72 /* KoyamaInput.entitlements */,
+				D685E45427885A9600C54F72 /* KoyamaInputController.swift */,
 			);
 			path = KoyamaInput;
 			sourceTree = "<group>";
@@ -118,6 +129,7 @@
 			files = (
 				D685E44A2788588900C54F72 /* Assets.xcassets in Resources */,
 				D685E44D2788588900C54F72 /* MainMenu.xib in Resources */,
+				D685E45827885D6700C54F72 /* icon.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D685E45527885A9600C54F72 /* KoyamaInputController.swift in Sources */,
 				D685E4482788588500C54F72 /* AppDelegate.swift in Sources */,
+				D699D58227886D7200171F0C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +285,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KoyamaInput/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -279,7 +294,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.github.hiromi-mi.KoyamaInput";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.hiromi-mi.inputmethod.KoyamaInput";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,6 +311,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KoyamaInput/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -304,7 +320,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.github.hiromi-mi.KoyamaInput";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.hiromi-mi.inputmethod.KoyamaInput";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
