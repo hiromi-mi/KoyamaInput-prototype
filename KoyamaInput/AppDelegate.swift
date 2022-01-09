@@ -11,6 +11,8 @@ import InputMethodKit
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet var window: NSWindow!
+    
+    @IBOutlet var conversionEngine: ConversionEngine!
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {

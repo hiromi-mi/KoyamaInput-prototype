@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D634273C278A4C230013B687 /* ConversionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D634273B278A4C230013B687 /* ConversionEngine.swift */; };
 		D685E4482788588500C54F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685E4472788588500C54F72 /* AppDelegate.swift */; };
 		D685E44A2788588900C54F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D685E4492788588900C54F72 /* Assets.xcassets */; };
 		D685E44D2788588900C54F72 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D685E44B2788588900C54F72 /* MainMenu.xib */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D634273B278A4C230013B687 /* ConversionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionEngine.swift; sourceTree = "<group>"; };
 		D685E4442788588500C54F72 /* KoyamaInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoyamaInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D685E4472788588500C54F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D685E4492788588900C54F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				D685E44B2788588900C54F72 /* MainMenu.xib */,
 				D685E44E2788588A00C54F72 /* KoyamaInput.entitlements */,
 				D685E45427885A9600C54F72 /* KoyamaInputController.swift */,
+				D634273B278A4C230013B687 /* ConversionEngine.swift */,
 			);
 			path = KoyamaInput;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D685E45527885A9600C54F72 /* KoyamaInputController.swift in Sources */,
+				D634273C278A4C230013B687 /* ConversionEngine.swift in Sources */,
 				D685E4482788588500C54F72 /* AppDelegate.swift in Sources */,
 				D699D58227886D7200171F0C /* main.swift in Sources */,
 			);
